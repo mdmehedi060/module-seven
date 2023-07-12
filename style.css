@@ -1,0 +1,38 @@
+/* part-7.2 */
+.container{
+  border: 2px solid salmon;
+  display: flex;
+  /* justify-content: space-around;
+  align-items: center; */
+  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
+  height: 250px;
+}
+.box{
+  border: 2px dashed tomato;
+  width: 100px;
+  height: 100px;
+}
+/* part-7.3 */
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+.login-container{
+display: flex;
+justify-content: center;
+
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+.login-form input{
+  margin-top: 20px;
+}
